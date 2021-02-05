@@ -1,2 +1,2 @@
-# Leadersboard-react
+# Leadersboard-react.js
 Created with CodeSandbox
