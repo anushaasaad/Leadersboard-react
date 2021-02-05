@@ -1,0 +1,79 @@
+.Student {
+  color: black;
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.left {
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  font-family: sans-serif;
+}
+.right {
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+}
+h2 .studentname {
+  margin-bottom: 0px;
+  padding: 0px;
+  font-weight: bold;
+  font-size: 28px;
+}
+p .uniname {
+  margin-top: 0px;
+  padding: 0px;
+  font-size: 10px;
+}
+.score {
+  font-size: 30px;
+  font-weight: bold;
+  color: green;
+}
+button.addsuccessbtn {
+  border: none;
+  background: crimson;
+  color: white;
+  border-radius: 100px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  position: relative;
+  top: -3px;
+  cursor: pointer;
+  left: 7px;
+}
+button.addsuccessbtn:hover {
+  background: green;
+  color: white;
+}
+button.failsuccessbtn {
+  margin-left: 10px;
+  border: none;
+  background: crimson;
+  color: white;
+  border-radius: 100px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  position: relative;
+  top: -3px;
+  cursor: pointer;
+  left: 7px;
+}
+button.failsuccessbtn:hover {
+  background: green;
+  color: white;
+}
+.uniname span {
+  background-color: green;
+  color: white;
+  font-size: 12px;
+  padding: 4px;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
